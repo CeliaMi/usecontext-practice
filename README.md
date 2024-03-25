@@ -3,16 +3,12 @@
 En este proyecto encontrarás una aplicación de Libros con sesión de usuarios perooo ¡Ups! en el frontend falta aplicar useContext para poder visualizar los libros
 
 
-> Antes de nada deberás crear una base de datos con sql, te he dejado un archivo .env de ejemplo para que puedas rellenarlo con los datos necesarios
+> Antes de nada deberás crear una base de datos vamos a SQL
 
  ```
-DB_PASSWORD = 
-DB_DEV_NAME = books_api_ts
-DB_TEST_NAME = books_api_ts_test
-DB_USER = 
-JWT_SECRET = 
-PORT = 3000
+create database books_api_ts;
 ```
+
 Para poder hace uso de esta API debes poner en la terminal los siguientes comandos👇 
 
 1️⃣ descarga el proyecto
@@ -25,6 +21,18 @@ cd server
 ```
 npm i
 ```
+
+>te he dejado un archivo .env de ejemplo para que puedas rellenarlo con los datos necesarios
+
+ ```
+DB_PASSWORD = 
+DB_DEV_NAME = books_api_ts
+DB_TEST_NAME = books_api_ts_test
+DB_USER = 
+JWT_SECRET = 
+PORT = 3000
+```
+
 3️⃣ levanta el **servidor** :
 ```
 npm run dev
